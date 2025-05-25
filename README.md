@@ -10,7 +10,7 @@ Run these commands from your existing KiCad project root directory:
 
 ```bash
 # 1. Download the main script
-curl -o update_kicad_version.py https://raw.githubusercontent.com/MarkusVLA/kicad-version-ctrl/main/update_kicad_version.py
+curl -o update-kicad-version.py https://raw.githubusercontent.com/MarkusVLA/kicad-version-ctrl/main/update-kicad-version.py
 
 # 2. Download the pre-commit hook
 curl -o .git/hooks/pre-commit https://raw.githubusercontent.com/MarkusVLA/kicad-version-ctrl/main/pre-commit
@@ -19,7 +19,7 @@ curl -o .git/hooks/pre-commit https://raw.githubusercontent.com/MarkusVLA/kicad-
 chmod +x .git/hooks/pre-commit
 
 # 4. Test the installation
-python3 update_kicad_version.py
+python3 update-kicad-version.py
 ```
 
 ## What This Does
