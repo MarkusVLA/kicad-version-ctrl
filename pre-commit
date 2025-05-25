@@ -3,7 +3,7 @@ import subprocess
 import sys
 
 # Run version update script
-result = subprocess.run(['python3', 'update-kicad-info.py'], capture_output=True)
+result = subprocess.run(['python3', 'update-kicad-version.py'], capture_output=True)
 
 if result.returncode != 0:
     print("Failed to update KiCad version info")
